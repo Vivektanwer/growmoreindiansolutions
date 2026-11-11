@@ -1,0 +1,18 @@
+/* Fonts: Bricolage Grotesque (headings) + DM Sans (body text) */
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500;700&display=swap");
+@import "tailwindcss";
+
+/* Colors and fonts of the website. Change a value here and the whole site updates.
+   Use them like:  bg-brand-green  text-brand-yellow  font-heading  font-body */
+@theme {
+  --color-brand-green: #005f31;
+  --color-brand-green-dark: #00401f;
+  --color-brand-green-soft: #eeffdf;
+  --color-brand-yellow: #fecc2f;
+  --color-brand-brown: #664d00;
+  --color-ink: #14261a;
+  --color-muted: #4b5f52;
+
+  --font-heading: "Bricolage Grotesque", sans-serif;
+  --font-body: "DM Sans", sans-serif;
+}
