@@ -9,7 +9,7 @@ export const site = {
   address: "B-256, Khasra No. 16/24, Bharat Vihar, Near Shri Ram Properties, New Delhi-110086",
 
   // Paste your Google Apps Script "Web app URL" here (see google-apps-script/Code.gs)
-  scriptUrl: "PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE",
+  scriptUrl: "https://script.google.com/macros/s/AKfycbywH9QG2ZxvAOV-OsZYze3hdPv6D_3HtJZCHFEquLO4O4AW_IIFNwrFiIAnKv5qkTIaeA/exec",
 }
 
 // Social media links (replace "#" with your real page links)
