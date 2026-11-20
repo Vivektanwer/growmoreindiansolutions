@@ -16,9 +16,11 @@ const About = () => {
         <div className="reveal flex-1 w-full relative">
           <div className="absolute -bottom-4 -left-4 w-2/3 h-2/3 bg-brand-yellow rounded-3xl"></div>
           {/* Replace with your company video or photo (see Placeholder.jsx) */}
-          <Placeholder
-            icon="bi-play-circle"
-            label="Company video or photo (800 x 600)"
+          <img
+            src="/images/about-image.webp"
+            alt="Company video or photo"
+            // icon="bi-play-circle"
+            // label="Company video or photo (800 x 600)"
             className="relative h-80 sm:h-[26rem] rounded-3xl"
           />
         </div>
