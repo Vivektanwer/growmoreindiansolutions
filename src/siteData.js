@@ -15,10 +15,10 @@ export const site = {
 
 // Social media links (replace "#" with your real page links)
 export const socialLinks = [
-  { name: "Facebook", icon: "bi-facebook", link: "#" },
-  { name: "Instagram", icon: "bi-instagram", link: "#" },
-  { name: "LinkedIn", icon: "bi-linkedin", link: "#" },
-  { name: "YouTube", icon: "bi-youtube", link: "#" },
+  { name: "Facebook", icon: "bi-facebook", link: "https://www.facebook.com/share/1JKxjh2oz7/" },
+  { name: "Instagram", icon: "bi-instagram", link: "https://www.instagram.com/growmore_indian_official?hvrq=MTR6YTkxaXczbmo4Mg==" },
+  // { name: "LinkedIn", icon: "bi-linkedin", link: "#" },
+  // { name: "YouTube", icon: "bi-youtube", link: "#" },
   { name: "WhatsApp", icon: "bi-whatsapp", link: "https://wa.me/919540893256" },
 ]
 
