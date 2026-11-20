@@ -9,7 +9,8 @@ export const site = {
   address: "B-256, Khasra No. 16/24, Bharat Vihar, Near Shri Ram Properties, New Delhi-110086",
 
   // Paste your Google Apps Script "Web app URL" here (see google-apps-script/Code.gs)
-  scriptUrl: "https://script.google.com/macros/s/AKfycbywH9QG2ZxvAOV-OsZYze3hdPv6D_3HtJZCHFEquLO4O4AW_IIFNwrFiIAnKv5qkTIaeA/exec",
+ // scriptUrl: "https://script.google.com/macros/s/AKfycbywH9QG2ZxvAOV-OsZYze3hdPv6D_3HtJZCHFEquLO4O4AW_IIFNwrFiIAnKv5qkTIaeA/exec",
+  scriptUrl: "https://script.google.com/macros/s/AKfycby7CNvvxyd_sKTI0Egu-s7yiZbeDCxm03hVVdPGPQtELImqZzpK9V5q6BAE_ACGr0U_/exec",
 }
 
 // Social media links (replace "#" with your real page links)
