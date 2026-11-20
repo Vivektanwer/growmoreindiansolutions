@@ -31,9 +31,11 @@ const Hero = () => {
         <div className="hero-item flex-1 w-full">
           <div className="bg-brand-yellow rounded-tl-[120px] rounded-br-[40px] rounded-tr-3xl rounded-bl-3xl p-4 sm:p-5">
             {/* Replace this placeholder with your hero image */}
-            <Placeholder
-              icon="bi-image"
-              label="Hero image: bags, bins and housekeeping products (900 x 700)"
+            <img
+              src="/images/hero-image.webp"
+              alt="Hero image: bags, bins and housekeeping products"
+              // icon="bi-image"
+              // label="Hero image: bags, bins and housekeeping products (900 x 700)"
               className="h-72 sm:h-96 lg:h-[26rem] rounded-tl-[100px] rounded-br-3xl rounded-tr-2xl rounded-bl-2xl"
             />
           </div>
