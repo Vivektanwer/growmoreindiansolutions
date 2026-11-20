@@ -24,9 +24,16 @@ const Header = () => {
 
         {/* Logo. Replace the icon circle with your <img> logo later */}
         <Link to="/" className="flex items-center gap-3">
-          <span className="flex items-center justify-center w-11 h-11 rounded-full bg-white text-brand-green text-2xl">
+          
+        <img 
+        src="/images/logov2.webp" 
+        alt={site.name}
+        className="flex items-center justify-center w-11 h-11 rounded-full bg-white text-brand-green text-2xl"
+         />
+          {/* <span className="flex items-center justify-center w-11 h-11 rounded-full bg-white text-brand-green text-2xl">
             <i className="bi bi-flower2"></i>
-          </span>
+          </span> */}
+          
           <span className="font-heading font-extrabold text-lg sm:text-xl leading-tight uppercase">
             {site.name}
           </span>
