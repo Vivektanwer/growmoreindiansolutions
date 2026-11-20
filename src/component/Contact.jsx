@@ -119,7 +119,7 @@ const Contact = () => {
               <option>Dustbins</option>
               <option>Housekeeping Items</option>
               <option>Bulk / Regular Supply</option>
-              <option>Something else</option>
+              <option>Other</option>
             </select>
           </div>
 
