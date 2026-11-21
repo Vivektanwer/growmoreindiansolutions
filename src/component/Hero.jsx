@@ -36,7 +36,7 @@ const Hero = () => {
               alt="Hero image: bags, bins and housekeeping products"
               // icon="bi-image"
               // label="Hero image: bags, bins and housekeeping products (900 x 700)"
-              className="h-72 sm:h-96 lg:h-[26rem] rounded-tl-[100px] rounded-br-3xl rounded-tr-2xl rounded-bl-2xl"
+              className="w-full h-72 sm:h-96 lg:h-[26rem] rounded-tl-[100px] rounded-br-3xl rounded-tr-2xl rounded-bl-2xl"
             />
           </div>
         </div>
