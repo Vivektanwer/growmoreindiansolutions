@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useNavigate } from 'react-router'
+import { Link, useNavigate } from 'react-router'
 import { site } from '../siteData'
 
 const inputClass = "w-full rounded-xl border border-gray-300 bg-white py-3 px-4 outline-none focus:border-brand-green focus:ring-2 focus:ring-brand-green/20"
@@ -82,7 +82,7 @@ const Contact = () => {
               <span className="flex items-center justify-center w-12 h-12 shrink-0 rounded-full bg-brand-green text-brand-yellow"><i className="bi bi-geo-alt-fill"></i></span>
               <div>
                 <p className="font-bold text-brand-green">Visit us</p>
-                <p className="text-muted">{site.address}</p>
+                <Link to="https://maps.app.goo.gl/pBXHQ2owxUoWbQtR6" target="_blank" rel="noopener noreferrer" className="text-muted">{site.address}</Link>
               </div>
             </li>
           </ul>
